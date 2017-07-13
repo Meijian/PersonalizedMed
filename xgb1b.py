@@ -268,8 +268,8 @@ for i in range(1):
             nfit += 1
 
             # feature importance
-            gainf = booster.get_score(importance_type='gain')
-            splitf = booster.get_score(importance_type='weight')   
+            # gainf = booster.get_score(importance_type='gain')
+            # splitf = booster.get_score(importance_type='weight')   
         
             # print("Predicting...")
         
@@ -280,13 +280,13 @@ for i in range(1):
             # clf.reset_parameter({"num_threads":1})
             # p_testf = booster.predict(x_test)
             # clf.reset_parameter({"num_threads":-1})
-            if f == 0:
-                gain = gainf.copy()
-                split = splitf.copy()
+            # if f == 0:
+                # gain = gainf.copy()
+                # split = splitf.copy()
                 # p_test = p_testf.copy()
-            else:
-                gain += gainf
-                split += splitf
+            # else:
+                # gain += gainf
+                # split += splitf
                 # p_test += p_testf
             
             # del x_test; gc.collect()
@@ -300,15 +300,15 @@ for i in range(1):
         # p_test /= nfold
             
         # feature importances
-        split = split.astype(float)
-        gain /= nfold
-        split /= nfold
-        gain /= sum(gain)
-        split /= sum(split)
-        imp = pd.DataFrame({'feature':train_columns,'gain':gain,'split':split})
-        imp.sort_values(['gain'],ascending=False,inplace=True)
-        imp.reset_index(inplace=True,drop=True)
-        print(imp.head(n=20))
+        # split = split.astype(float)
+        # gain /= nfold
+        # split /= nfold
+        # gain /= sum(gain)
+        # split /= sum(split)
+        # imp = pd.DataFrame({'feature':train_columns,'gain':gain,'split':split})
+        # imp.sort_values(['gain'],ascending=False,inplace=True)
+        # imp.reset_index(inplace=True,drop=True)
+        # print(imp.head(n=20))
 
         # out of fold logloss
 
