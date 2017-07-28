@@ -27,15 +27,96 @@ from scipy.special import logit, expit
 #     'verbose': 0
 # }
 
-midx = '3'
+# midx = '3'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 6,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+# midx = '4'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 7,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+# midx = '5'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 8,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+# midx = '6'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 6,
+#     'feature_fraction': 0.8, 
+#     'bagging_fraction': 0.8,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+# midx = '7'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 6,
+#     'feature_fraction': 0.7, 
+#     'bagging_fraction': 0.9,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+# midx = '8'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 6,
+#     'feature_fraction': 0.9, 
+#     'bagging_fraction': 0.7,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+# midx = '9'
+# params = {
+#     'learning_rate': 0.03333,
+#     'max_depth': 6,
+#     'feature_fraction': 0.9, 
+#     'bagging_fraction': 0.9,
+#     'objective': 'multiclass',
+#     'metric': 'multi_logloss',
+#     'num_class': 9,
+#     'verbose': 0
+# }
+
+midx = '10'
 params = {
     'learning_rate': 0.03333,
     'max_depth': 6,
+    'feature_fraction': 0.7, 
+    'bagging_fraction': 0.7,
     'objective': 'multiclass',
     'metric': 'multi_logloss',
     'num_class': 9,
     'verbose': 0
 }
+
 # params = {}
 # params['max_bin'] = 10
 # params['learning_rate'] = 0.01 # shrinkage_rate
