@@ -25,7 +25,14 @@ from sklearn.metrics import log_loss
 
 # sub = pd.read_csv('sub/owl1_lgb.csv')
 # sub = pd.read_csv('sub/owl2_lgb.csv')
-sub = pd.read_csv('sub/owl3_lgb.csv')
+# sub = pd.read_csv('sub/owl3_lgb.csv')
+# sub = pd.read_csv('sub/owl4_lgb.csv')
+# sub = pd.read_csv('sub/owl5_lgb.csv')
+sub = pd.read_csv('sub/owl6_lgb.csv')
+# sub = pd.read_csv('sub/owl7_lgb.csv')
+# sub = pd.read_csv('sub/owl8_lgb.csv')
+# sub = pd.read_csv('sub/owl9_lgb.csv')
+# sub = pd.read_csv('sub/owl10_lgb.csv')
 
 # sub = pd.read_csv('sub/kevin1.csv')
 # sub = pd.read_csv('sub/kevin2.csv')
