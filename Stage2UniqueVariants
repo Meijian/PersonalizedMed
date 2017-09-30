@@ -1,33 +1,34 @@
-ID	Gene	Variation	Annotation
-8	RNF6	G244D	Likely LOF
-15	ERBB2	G746S	not-mentioned
-16	TP53	Y234S	not-mentioned
-18	EGFR	P546S	switch-of-function
-19	ERBB2	G279E	inconclusive
-20	CSF1R	Y969H	not-mentioned
-27	TRPM1	L99P	noise/fake
-31	SYT6	A406T	not-mentioned
-38	CSF1R	Y969F	GOF
-42	TSHR	P162A	noise/fake
-43	SMAD4	G386C	not-mentioned
-47	ERBB2	V762M	not-mentioned
-50	MET	M1268T	GOF or likely GOF
-53	RPS26	M1L	noise/fake
-54	KRAS	Q61K	GOF
-58	STK11	G163C	not-mentioned
-67	PTPN11	A72D	not-mentioned
-69	B4GALT7	R270C	noise/fake
-73	PIK3CA	E545D	not-mentioned
-78	SMAD4	D355E	inconclusive
-87	DCC	P1375H
-103	TP53	R273S
-104	ACVR1	R258M
-106	PIK3CA	G1049S
-129	IDH2	R140W
-132	SMAD4	G386S
-134	CREBBP	R1446G
-138	CSF1R	Y571D
-144	STK11	R86G
+ID	Gene	Variation	Class	
+8	RNF6	G244D	1	Likely LOF
+15	ERBB2	G746S	6	not-mentioned
+16	TP53	Y234S	6	not-mentioned
+18	EGFR	P546S	9	switch-of-function
+19	ERBB2	G279E	6	
+20	CSF1R	Y969H	6	not-mentioned
+27	TRPM1	L99P	6	noise/fake
+31	SYT6	A406T	6	not-mentioned
+38	CSF1R	Y969F	7	GOF
+42	TSHR	P162A	6	noise/fake
+43	SMAD4	G386C	6	not-mentioned
+47	ERBB2	V762M	6	not-mentioned
+50	MET	M1268T	7-Feb	GOF or likely GOF
+53	RPS26	M1L	6	noise/fake
+54	KRAS	Q61K	7	GOF
+58	STK11	G163C	6	not-mentioned
+67	PTPN11	A72D	6	not-mentioned
+69	B4GALT7	R270C	6	noise/fake
+73	PIK3CA	E545D	6	not-mentioned
+78	SMAD4	D355E	6	inconclusive
+87	DCC	P1375H	6	not-mentioned
+103	TP53	R273S	5-Mar	neutral or likely neutral
+104	ACVR1	R258M	6	not-mentioned
+106	PIK3CA	G1049S	6	not-mentioned
+129	IDH2	R140W	6	not-mentioned
+132	SMAD4	G386S	6	not-mentioned
+134	CREBBP	R1446G	6	not-mentioned
+138	CSF1R	Y571D	7-Feb	GOF or likely GOF
+144	STK11	R86G	6	not-mentioned
+151	WNT4	A114V	6	noise/fake
 151	WNT4	A114V
 156	AKT2	S302G
 161	MYC	P58L
