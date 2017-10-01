@@ -11,7 +11,7 @@ ID	Gene	Variation	Class	Comments
 42	TSHR	P162A	6	noise/fake
 43	SMAD4	G386C	6	not-mentioned
 47	ERBB2	V762M	6	not-mentioned
-50	MET	M1268T	7-Feb	GOF or likely GOF
+50	MET	M1268T	2/7	GOF or likely GOF
 53	RPS26	M1L	6	noise/fake
 54	KRAS	Q61K	7	GOF
 58	STK11	G163C	6	not-mentioned
@@ -20,13 +20,13 @@ ID	Gene	Variation	Class	Comments
 73	PIK3CA	E545D	6	not-mentioned
 78	SMAD4	D355E	6	inconclusive
 87	DCC	P1375H	6	not-mentioned
-103	TP53	R273S	5-Mar	neutral or likely neutral
+103	TP53	R273S	3/5	neutral or likely neutral
 104	ACVR1	R258M	6	not-mentioned
 106	PIK3CA	G1049S	6	not-mentioned
 129	IDH2	R140W	6	not-mentioned
 132	SMAD4	G386S	6	not-mentioned
 134	CREBBP	R1446G	6	not-mentioned
-138	CSF1R	Y571D	7-Feb	GOF or likely GOF
+138	CSF1R	Y571D	2/7	GOF or likely GOF
 144	STK11	R86G	6	not-mentioned
 151	WNT4	A114V	6	noise/fake
 156	AKT2	S302G	6	not-mentioned
