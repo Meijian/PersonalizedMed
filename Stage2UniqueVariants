@@ -1,4 +1,4 @@
-ID	Gene	Variation	Class	Comments
+ID	Gene	Variation	Class	
 8	RNF6	G244D	1	Likely LOF
 15	ERBB2	G746S	6	not-mentioned
 16	TP53	Y234S	6	not-mentioned
@@ -11,7 +11,7 @@ ID	Gene	Variation	Class	Comments
 42	TSHR	P162A	6	noise/fake
 43	SMAD4	G386C	6	not-mentioned
 47	ERBB2	V762M	6	not-mentioned
-50	MET	M1268T	2/7	GOF or likely GOF
+50	MET	M1268T	7	GOF or likely GOF
 53	RPS26	M1L	6	noise/fake
 54	KRAS	Q61K	7	GOF
 58	STK11	G163C	6	not-mentioned
@@ -20,13 +20,13 @@ ID	Gene	Variation	Class	Comments
 73	PIK3CA	E545D	6	not-mentioned
 78	SMAD4	D355E	6	inconclusive
 87	DCC	P1375H	6	not-mentioned
-103	TP53	R273S	3/5	neutral or likely neutral
+103	TP53	R273S	3	neutral or likely neutral
 104	ACVR1	R258M	6	not-mentioned
 106	PIK3CA	G1049S	6	not-mentioned
 129	IDH2	R140W	6	not-mentioned
 132	SMAD4	G386S	6	not-mentioned
 134	CREBBP	R1446G	6	not-mentioned
-138	CSF1R	Y571D	2/7	GOF or likely GOF
+138	CSF1R	Y571D	7	GOF or likely GOF
 144	STK11	R86G	6	not-mentioned
 151	WNT4	A114V	6	noise/fake
 156	AKT2	S302G	6	not-mentioned
@@ -59,48 +59,48 @@ ID	Gene	Variation	Class	Comments
 327	DNMT3A	R882P	6	inconclusive
 340	CDK4	R24L	6	not-mentioned
 350	MCC	A888V	6	not-mentioned
-360	SCO2	C133Y
-365	CTNNB1	D32V
-374	EIF2B5	R113H
-386	PIK3CA	E545V
-394	EGFR	A289D
-396	FGFR2	N639K
-401	FGFR3	G699C
-403	PTEN	R159S
-417	SLC7A7	L334R
-422	ERBB2	L755M
-423	MCC	R696Q
-431	EPHA5	G583E
-433	KRAS	A146P
-435	BRAF	G596D
-437	CHST3	L259P
-443	EGFR	E749Q
-447	STK11	Q123R
-448	CDKN2A	A128D
-454	NRAS	G13R
-457	SCO2	R171W
-459	EGFR	E734K
-463	ERBB2	N827S
-464	PIK3CA	Q546L
-465	CRNKL1	S116F
-469	CTNNB1	T41I
-471	TP53	R148I
-476	NRAS	G13S
-480	NOTCH1	D1642H
-485	FGFR3	E322K
-487	BRAF	V600L
-508	STK11	D194E
-510	IDH2	R120M
-515	NOTCH1	R2327W
-518	TP53	S83I
-519	CDKN2A	A97V
-522	CTNNB1	D32H
-530	GALK1	P28T
-536	TP53	Y234N
-537	IDH1	R132L
-538	NEK8	A197P
-546	CSF1R	Y969C
-550	VHL	L89H
+360	SCO2	C133Y	6	noise/fake
+365	CTNNB1	D32V	6	not-mentioned
+374	EIF2B5	R113H	6	noise/fake
+386	PIK3CA	E545V	6	not-mentioned
+394	EGFR	A289D	6	inconclusive
+396	FGFR2	N639K	6	not-mentioned
+401	FGFR3	G699C	6	not mentioned
+403	PTEN	R159S	6	not-mentioned
+417	SLC7A7	L334R	6	noise/fake
+422	ERBB2	L755M	6	not-mentioned
+423	MCC	R696Q	6	not-mentioned
+431	EPHA5	G583E	6	not-mentioned
+433	KRAS	A146P	6	not-mentioned
+435	BRAF	G596D	6	not-mentioned
+437	CHST3	L259P	6	noise/fake
+443	EGFR	E749Q	6	not-mentioned
+447	STK11	Q123R	6	not-mentioned
+448	CDKN2A	A128D	6	not-mentioned
+454	NRAS	G13R	6	not-mentioned
+457	SCO2	R171W	6	noise/fake
+459	EGFR	E734K	6	inconclusive
+463	ERBB2	N827S	6	not-mentioned
+464	PIK3CA	Q546L	6	not-mentioned
+465	CRNKL1	S116F	6	not-mentioned
+469	CTNNB1	T41I	6	inconclusive
+471	TP53	R148I	6	not-mentioned
+476	NRAS	G13S	6	not-mentioned
+480	NOTCH1	D1642H	6	not-mentioned
+485	FGFR3	E322K	4	LOF
+487	BRAF	V600L	6	not-mentioned
+508	STK11	D194E	4	LOF
+510	IDH2	R120M	6	not-mentioned
+515	NOTCH1	R2327W	6	not-mentioned
+518	TP53	S83I	6	not-mentioned
+519	CDKN2A	A97V	6	not-mentioned
+522	CTNNB1	D32H	7	GOF
+530	GALK1	P28T	6	noise/fake
+536	TP53	Y234N	6	not-mentioned
+537	IDH1	R132L	6	inconclusive
+538	NEK8	A197P	6	inconclusive
+546	CSF1R	Y969C	6	inconclusive
+550	VHL	L89H	6	inconclusive
 551	IDH2	R140L
 567	CSF1R	L301F
 591	TP53	V173A
